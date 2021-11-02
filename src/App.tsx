@@ -1,10 +1,15 @@
-import { Button } from './Button';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { ScenarioEditor } from "./ScenarioEditor";
 
 function App() {
   return (
-    <div className="App">
-      <Button></Button>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/:scenarioId">
+          <ScenarioEditor />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

@@ -1,0 +1,53 @@
+{
+    "id": "test",
+    "name": "Test",
+    "description": "Test",
+    "events": [
+        {
+            "id": "start",
+            "name": "Start",
+            "actions": [
+                {
+                    "text": "Ausfahrt **TLF Axberg** (7 Mann, 3 AS) ",
+                    "delay": 1
+                },
+                {
+                    "text": "Alarmänderung auf **Brand Gewerbe/Industrie**",
+                    "delay": 1
+                },
+                {
+                    "text": "Eintreffen **TLF Axberg** (7 Mann, 3 AS) -  mit **EL**",
+                    "delay": 1
+                },
+                {
+                    "text": "Lageerkundung: Präsentation Lage (Karte)",
+                    "delay": 1
+                },
+                {
+                    "text": "Eintreffen **RLF Thening** (6 Mann, 3 AS) - (nach 2min)",
+                    "delay": 1
+                },
+                {
+                    "text": "Eintreffen **LFB Axberg** (8 Mann, 3 AS) -  ****(nach 1min)",
+                    "delay": 1
+                },
+                {
+                    "text": "Eintreffen **KLF Thening** (5 Mann, 3 AS) -  ****(nach 1min)",
+                    "delay": 1
+                },
+                {
+                    "text": "Eintreffen **KDO Axberg** (6 Mann, 2 AS) -  ****(nach 1min)",
+                    "delay": 1
+                },
+                {
+                    "text": "Eintreffen **MTF Thening** (3 Mann, 1 AS) - (nach 2min)",
+                    "delay": 1
+                },
+                {
+                    "text": "Eintreffen **LAST Axberg** (3 Mann, 0 AS) - (nach 1min)",
+                    "delay": 1
+                }
+            ]
+        }
+    ]
+}
