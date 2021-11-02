@@ -1,12 +1,12 @@
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {ScenarioEditor} from './ScenarioEditor';
+import {ScenarioOverview} from './pages/ScenarioOverview';
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route path="/:scenarioId">
-          <ScenarioEditor />
+          <ScenarioOverview />
         </Route>
       </Switch>
     </Router>
