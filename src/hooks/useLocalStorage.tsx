@@ -26,6 +26,7 @@ export function useLocalStorage<S>(
   // ... persists the new value to localStorage.
   const setValue = (value: S) => {
     try {
+      console.log(value);
       // Allow value to be a function so we have same API as useState
       const valueToStore = value instanceof Function ? value(storedValue) : value;
       // Save state

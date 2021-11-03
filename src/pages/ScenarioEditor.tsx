@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {isScenario, Scenario} from '../types/scenario';
 
 export interface ScenarioEditorProps {
-  scenario: Scenario;
+  scenario: Scenario | null;
   setScenario: (scenario: Scenario) => void;
 }
 
@@ -33,6 +33,7 @@ export const ScenarioEditor = ({scenario, setScenario}: ScenarioEditorProps) => 
     }
 
     if (parsedScenario) {
+      console.log(parsedScenario);
       setScenario(parsedScenario);
     }
   }

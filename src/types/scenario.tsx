@@ -1,20 +1,23 @@
 import {isObject} from '../util';
 
-export interface Action {}
-
 export interface Event {
+  'text': string;
+  'delay'?: number;
+}
+
+export interface Action {
   id: string;
   name: string;
-  actions: Action[];
+  events: Event[];
 }
 
 export interface Scenario {
   id: string;
   name: string;
   description?: string;
-  events: Event[];
+  actions: Action[];
 }
 
 export function isScenario(obj: any): obj is Scenario {
-  return isObject(obj) && obj.id && obj.name && obj.events;
+  return isObject(obj) && obj.id && obj.name && obj.actions;
 }

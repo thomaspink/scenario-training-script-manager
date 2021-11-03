@@ -15,23 +15,27 @@ export function ScenarioOverview() {
   if (!isScenario(scenario)) {
     return (
       <StyledScenarioOverview>
-        Kein Szenario mit der ID {scenarioId} gefunden.
+        <p>Kein Szenario mit der ID {scenarioId} gefunden.</p>
+        <p>Neu erstellen?</p>
+        <Route path={`${match.path}/editor`} strict={false}>
+          <ScenarioEditor scenario={null} setScenario={setScenario}></ScenarioEditor>
+        </Route>
       </StyledScenarioOverview>
     );
   }
 
   return (
     <StyledScenarioOverview>
+      <Link to={`${match.url}/editor`}>Bearbeiten</Link>
+      <Link to={`${match.url}/player`}>Starten</Link>
+      <h1>Szenario: {scenario.name}</h1>
+      <p>{scenario.description}</p>
       <Switch>
         <Route path={`${match.path}/player`} strict={false}>
           <ScenarioPlayer scenario={scenario}></ScenarioPlayer>
         </Route>
         <Route path={`${match.path}/editor`} strict={false}>
           <ScenarioEditor scenario={scenario} setScenario={setScenario}></ScenarioEditor>
-        </Route>
-        <Route path={match.path}>
-          <Link to={`${match.url}/editor`}>Bearbeiten</Link>
-          <Link to={`${match.url}/player`}>Starten</Link>
         </Route>
       </Switch>
     </StyledScenarioOverview>
