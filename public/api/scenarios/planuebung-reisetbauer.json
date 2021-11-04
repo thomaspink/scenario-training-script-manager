@@ -1,0 +1,179 @@
+{
+  "id": "planuebung-inreiter",
+  "name": "Planübung Inreiter",
+  "description": "Test",
+  "actions": [
+    {
+      "id": "start",
+      "name": "Start AS 1",
+      "events": [
+        {
+          "text": "Ausfahrt TLF Axberg (7 Mann, 3 AS) ",
+          "delay": 0
+        },
+        {
+          "text": "Alarmänderung auf Brand Gewerbe/Industrie",
+          "delay": 1
+        },
+        {
+          "text": "Eintreffen TLF Axberg (7 Mann, 3 AS) -  mit EL",
+          "delay": 2
+        },
+        {
+          "text": "Lageerkundung: Präsentation Lage (Karte)",
+          "delay": 1
+        },
+        {
+          "text": "Eintreffen RLF Thening (6 Mann, 3 AS)",
+          "delay": 2
+        },
+        {
+          "text": "Eintreffen LFB Axberg (8 Mann, 3 AS)",
+          "delay": 1
+        },
+        {
+          "text": "Eintreffen KLF Thening (5 Mann, 3 AS)",
+          "delay": 1
+        },
+        {
+          "text": "Eintreffen KDO Axberg (6 Mann, 2 AS)",
+          "delay": 0
+        },
+        {
+          "text": "Anfrage von LAST Axberg zwecks AS Anhänger",
+          "delay": 1
+        },
+        {
+          "text": "Eintreffen MTF Thening (3 Mann, 1 AS)",
+          "delay": 2
+        },
+        {
+          "text": "Eintreffen LAST Axberg (3 Mann, 0 AS)",
+          "delay": 1
+        }
+      ]
+    },
+    {
+      "id": "as2",
+      "name": "Alarmierung AS 2",
+      "events": [
+        {
+          "text": "Eintreffen RLF-A 2000 Freiling (7 Mann, 3 AS)",
+          "delay": 1
+        },
+        {
+          "text": "Eintreffen TLF-A 2000 (6 Mann, 3 AS) & TMB 23/12 (2 Mann, 1 AS) Alkoven",
+          "delay": 2
+        },
+        {
+          "text": "Eintreffen LFB-A1 Polsing (7 Mann, 3 AS)",
+          "delay": 1
+        },
+        {
+          "text": "Eintreffen LFB-A2 Holzhausen (6 Mann, 3 AS)",
+          "delay": 0
+        },
+        {
+          "text": "Eintreffen LFB-A2 Oftering (6 Mann, 3 AS)",
+          "delay": 0
+        },
+        {
+          "text": "Eintreffen TLFA-B Mistelbach (3 Mann, 0 AS)",
+          "delay": 1
+        },
+        {
+          "text": "Eintreffen KDOF Freiling (5 Mann, 2 AS)",
+          "delay": 1
+        },
+        {
+          "text": "Eintreffen KDOF Holzhausen (3 Mann, 0 AS)",
+          "delay": 1
+        }
+      ]
+    },
+    {
+      "id": "as3",
+      "name": "Alarmierung AS 3",
+      "events": [
+        {
+          "text": "Eintreffen KDOF (2 Mann, 0 AS) & TLFA 2000 (6 Mann, 3 AS) Marchtrenk",
+          "delay": 2
+        },
+        {
+          "text": "Eintreffen LFB-A2 Breitbrunn (6 Mann, 3 AS)",
+          "delay": 1
+        },
+        {
+          "text": "Eintreffen TLF 4000 Hörsching (5 Mann, 3 AS)",
+          "delay": 1
+        },
+        {
+          "text": "Eintreffen SF-A Kappern (3 Mann, 0 AS)",
+          "delay": 1
+        },
+        {
+          "text": "Eintreffen DLK 23/12 (2 Mann, 1 AS) & GTLF 10000 (2 Mann, 0 AS) Marchtrenk",
+          "delay": 1
+        },
+        {
+          "text": "Eintreffen RLF-A Pasching (7 Mann, 3 AS)",
+          "delay": 1
+        },
+        {
+          "text": "Eintreffen LF-A1 Edramsberg (6 Mann, 3 AS)",
+          "delay": 1
+        }
+      ]
+    },
+    {
+      "id": "asf",
+      "name": "Alarmierung GSF Linz",
+      "events": [
+        {
+          "text": "Eintreffen GSF Linz (2 Mann, 0 AS) ",
+          "delay": 6
+        }
+      ]
+    },
+    {
+      "id": "asf",
+      "name": "Alarmierung GSF Zug",
+      "events": [
+        {
+          "text": "Eintreffen GSF Zug (15 Mann, 6 AS) ",
+          "delay": 6
+        }
+      ]
+    },
+    {
+      "id": "asf",
+      "name": "Alarmierung ASF",
+      "events": [
+        {
+          "text": "Eintreffen ASF Nettingsdorf (3 Mann, 0 AS) ",
+          "delay": 4
+        }
+      ]
+    },
+    {
+      "id": "afkdt",
+      "name": "Alarmierung AFKDT",
+      "events": [
+        {
+          "text": "Eintreffen AFKDT",
+          "delay": 6
+        }
+      ]
+    },
+    {
+      "id": "bfkdt",
+      "name": "Alarmierung BFKDT",
+      "events": [
+        {
+          "text": "Eintreffen BFKDT",
+          "delay": 7
+        }
+      ]
+    }
+  ]
+}

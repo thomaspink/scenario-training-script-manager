@@ -26,10 +26,9 @@ export function ScenarioOverview() {
 
   return (
     <StyledScenarioOverview>
-      <Link to={`${match.url}/editor`}>Bearbeiten</Link>
+      <Link to={`${match.url}/editor`}>Bearbeiten</Link> |{' '}
       <Link to={`${match.url}/player`}>Starten</Link>
       <h1>Szenario: {scenario.name}</h1>
-      <p>{scenario.description}</p>
       <Switch>
         <Route path={`${match.path}/player`} strict={false}>
           <ScenarioPlayer scenario={scenario}></ScenarioPlayer>
